@@ -13,7 +13,7 @@ class Node{
         this->data = val;
         this->next = NULL;
     }
-    ~Node()
+    ~Node()   // destructor
     {
         int value = this->data;
         if(this->next == NULL)
@@ -39,7 +39,7 @@ void insertAtTail(Node* &tail,int d)
     tail = temp;
 }
 
-void delete1(int i, Node* &head)
+void deleteList(int i, Node* &head)
 {
      
     if(i==0)
@@ -103,7 +103,7 @@ int main()
    
         insertAtTail(tail,12);
     disply(head);
-    delete1(2,head);
+    deleteList(2,head);
     disply(head);
 
 
