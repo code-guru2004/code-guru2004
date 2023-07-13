@@ -60,7 +60,11 @@ void deletNode(Node* &tail, int element)
     }
 // in circular Linked list ,there are not exixt any NULL 
     prev->next = curr->next;
-    curr->next = NULL;
+if( tail ==  curr)
+{
+  tail = prev;
+}
+curr->next = NULL;
     delete curr;
     
   }
