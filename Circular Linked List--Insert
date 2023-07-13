@@ -1,0 +1,70 @@
+#include<iostream>
+using namespace std;
+class Node{
+  public:
+  int data;
+  Node* next;
+  Node(int val)
+  {
+    this->data = val;
+    this->next = NULL;
+  }
+
+  ~Node()
+  {
+    int value = this->data;
+    if(this->next != NULL)
+    {
+      delete next;
+      next = NULL;
+    }
+  }
+};
+void insertAtHead(Node* &tail ,int element, int data)
+{
+  if(tail == NULL)
+  {
+    Node* temp = new Node(data);
+    tail = temp;
+    tail->next = temp;
+  }
+
+else{
+  Node* curr = tail;
+  while (curr->data != element)
+  {
+      curr = curr->next;
+  }
+  Node* addto = new Node(data);
+  addto->next = curr->next;
+  curr->next = addto;
+  
+
+}
+}
+void display(Node* tail)
+{
+  Node* temp = tail;
+
+  do
+  {
+    cout<<tail->data<<" ";
+    tail = tail->next;
+  } while (tail!=temp);
+  cout<<endl;
+}
+int main()
+{
+ 
+  Node* tail = NULL;
+  insertAtHead(tail,3,1);
+  display(tail);
+  insertAtHead(tail,1,2);
+  insertAtHead(tail,2,3);
+  insertAtHead(tail,3,4);
+  insertAtHead(tail,3,5);
+ display(tail);
+
+
+    return 0;
+}
