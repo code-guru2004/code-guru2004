@@ -1,5 +1,5 @@
 # 💫 About Me:
-# Hi 👋, I'm Nayan Das  <br><br>🔭 I’m currently working on my **Final Year Project** – a **Machine Learning based Healthcare Application**.  <br>🌱 I’m exploring **Deep Learning, AI-driven healthcare, and Full-Stack Web Development**.  <br>👯 I’m looking to collaborate on **AI/ML projects** and **open-source contributions**.  <br>💬 Ask me about **Machine Learning, Python, React, Next.js, and Databases**.  <br>📫 How to reach me: **nayan010das@gmail.com**  <br>⚡ Fun fact: I debug more than I sleep 😅  
+Hi 👋, I’m Nayan Das<br><br>🔭 I’m currently working on my Final Year Project – a Machine Learning based Healthcare Application.<br>🌱 I’m exploring Deep Learning, AI-driven healthcare, and Full-Stack Web Development.<br>👯 I’m looking to collaborate on AI/ML projects and open-source contributions.<br>💬 Ask me about Machine Learning, Python, React, Next.js, and Databases.<br>📫 How to reach me: nayan010das@gmail.com<br>⚡ Fun fact: I debug more than I sleep 😅<br>🫠 My portfolio: https://nayan-das-portfolio.vercel.app/
 
 
 ## 🌐 Socials:
@@ -16,7 +16,7 @@
 ![](https://github-profile-trophy.vercel.app/?username=code-guru2004&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
 ### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=code-guru2004&limit=5&theme=dark&combine_all_yearly_contributions=true)
